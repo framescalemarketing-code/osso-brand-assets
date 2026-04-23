@@ -5,9 +5,9 @@
       "source": "Abbott Logo.svg",
       "png": "Abbott Logo.png",
       "svg": "Abbott Logo.svg",
-      "status": "skipped",
-      "method": "none",
-      "error": "No SVG rasterizer available (need ImageMagick or CairoSVG)"
+      "status": "processed",
+      "method": "cairosvg",
+      "error": ""
     },
     {
       "source": "BAYER Logo.svg",
@@ -20,9 +20,9 @@
       "source": "Dexcom Logo.svg",
       "png": "Dexcom Logo.png",
       "svg": "Dexcom Logo.svg",
-      "status": "skipped",
-      "method": "none",
-      "error": "No SVG rasterizer available (need ImageMagick or CairoSVG)"
+      "status": "processed",
+      "method": "cairosvg",
+      "error": ""
     },
     {
       "source": "J&J Logo.svg",
@@ -35,25 +35,25 @@
       "source": "Northrop Grumman Logo.svg",
       "png": "Northrop Grumman Logo.png",
       "svg": "Northrop Grumman Logo.svg",
-      "status": "skipped",
-      "method": "none",
-      "error": "No SVG rasterizer available (need ImageMagick or CairoSVG)"
+      "status": "processed",
+      "method": "cairosvg",
+      "error": ""
     },
     {
       "source": "Novartis Logo.svg",
       "png": "Novartis Logo.png",
       "svg": "Novartis Logo.svg",
-      "status": "skipped",
-      "method": "none",
-      "error": "No SVG rasterizer available (need ImageMagick or CairoSVG)"
+      "status": "processed",
+      "method": "cairosvg",
+      "error": ""
     },
     {
       "source": "osso-logo-dark.svg",
       "png": "osso-logo-dark.png",
       "svg": "osso-logo-dark.svg",
-      "status": "skipped",
-      "method": "none",
-      "error": "No SVG rasterizer available (need ImageMagick or CairoSVG)"
+      "status": "processed",
+      "method": "cairosvg",
+      "error": ""
     },
     {
       "source": "osso-logo-horizontal.png",
@@ -66,25 +66,25 @@
       "source": "osso-logo-horizontal-light.svg",
       "png": "osso-logo-horizontal-light.png",
       "svg": "osso-logo-horizontal-light.svg",
-      "status": "skipped",
-      "method": "none",
-      "error": "No SVG rasterizer available (need ImageMagick or CairoSVG)"
+      "status": "processed",
+      "method": "cairosvg",
+      "error": ""
     },
     {
       "source": "osso-logo-icon.svg",
       "png": "osso-logo-icon.png",
       "svg": "osso-logo-icon.svg",
-      "status": "skipped",
-      "method": "none",
-      "error": "No SVG rasterizer available (need ImageMagick or CairoSVG)"
+      "status": "processed",
+      "method": "cairosvg",
+      "error": ""
     },
     {
       "source": "osso-logomark.svg",
       "png": "osso-logomark.png",
       "svg": "osso-logomark.svg",
-      "status": "skipped",
-      "method": "none",
-      "error": "No SVG rasterizer available (need ImageMagick or CairoSVG)"
+      "status": "processed",
+      "method": "cairosvg",
+      "error": ""
     },
     {
       "source": "Pfizer Logo.png",
@@ -109,11 +109,8 @@
     }
   ],
   "counts": {
-    "processed": 6,
-    "skipped": 8
+    "processed": 14,
+    "skipped": 0
   },
-  "missing_tools": [
-    "ImageMagick",
-    "CairoSVG"
-  ]
+  "missing_tools": []
 }
